@@ -18,7 +18,7 @@ public class Philosopher implements Runnable {
                 eat();
                 release();
             } catch (InterruptedException e) {
-                // TODO: handle exception
+                e.printStackTrace();
             }
         }
     }
